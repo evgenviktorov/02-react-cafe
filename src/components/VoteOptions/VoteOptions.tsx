@@ -4,7 +4,7 @@ import css from './VoteOptions.module.css'
 interface VoteOptionsProps {
 	onVote: (type: VoteType) => void
 	onReset: () => void
-	canReset?: boolean
+	canReset: boolean
 }
 
 export default function VoteOptions({
